@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SuperKamal Social</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>SuperKamal</h1>
+</header>
+
+<div class="login-box" id="loginBox">
+<h2>Login</h2>
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<button onclick="login()">Login</button>
+</div>
+
+<div class="main" id="mainPage">
+
+<div class="create">
+<textarea id="postInput" placeholder="What's on your mind?"></textarea>
+<button onclick="createPost()">Post</button>
+</div>
+
+<div id="feed"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
