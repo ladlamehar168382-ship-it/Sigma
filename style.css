@@ -1,0 +1,67 @@
+body{
+font-family:Arial;
+background:#f0f2f5;
+margin:0;
+}
+
+header{
+background:#1877f2;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+.login-box{
+width:300px;
+margin:100px auto;
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.login-box input{
+width:90%;
+padding:10px;
+margin:5px;
+}
+
+.login-box button{
+padding:10px 20px;
+background:#1877f2;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.main{
+display:none;
+width:500px;
+margin:20px auto;
+}
+
+.create textarea{
+width:100%;
+height:80px;
+padding:10px;
+}
+
+.create button{
+margin-top:10px;
+padding:10px 20px;
+background:#1877f2;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.post{
+background:white;
+padding:15px;
+margin-top:15px;
+border-radius:10px;
+}
+
+.post button{
+margin-top:10px;
+}
